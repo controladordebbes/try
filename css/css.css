@@ -1,0 +1,515 @@
+@charset "utf-8";
+/* CSS Document */
+	.my-element {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 5s; /* don't forget to set a duration! */
+}
+/* This only changes this particular animation duration */
+.animate__animated.animate__bounce {
+  --animate-duration: 5s;
+}
+
+/* This changes all the animations globally */
+:root {
+  --animate-duration: 1800ms;
+  --animate-delay: 100.9s;
+}
+body{
+    margin:0;
+	background-color: black;
+    font-family: 'Grandstander', sans-serif;
+    font-size:16px;
+    /*overflow:hidden;*/
+}
+
+.one{
+	width: 120px;
+	height: 120px;
+	margin: 20px;
+	background-color: aqua;
+	float:left;
+}
+
+#intro{
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index:100;
+    background:#FFF;
+    font-size:3em;
+    line-height: 2em;
+    text-align:center;
+	background-color: black;
+}
+
+.intro-text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+	color: white;
+}
+
+#intro span{
+    opacity:0;
+}
+
+#intro2{
+    font-weight: bold;
+	color: white;
+}
+
+
+h1{
+	color: white;
+	font-size: 50px;
+	margin-bottom: 30px;
+	
+}
+
+h3{
+	color: white;
+	margin-top: 30px;
+	
+}
+
+#botoes{
+	display: inline-grid;
+	
+}
+
+#botao1{
+	margin-top: 30px;
+	background-color: black;
+	color: #0D92ED;
+	border-width:thick;
+	font-size: 35px;
+	padding: 15px;
+	border-color: #0D92ED;
+	border-radius: 10px;
+	cursor: pointer;
+	border-style: solid;
+	font-weight: bold;
+	font-family: 'Grandstander', sans-serif;
+
+	
+	
+}
+
+#botao1:hover{
+	background-color: #0D92ED;
+	color: black;
+}
+	
+
+#botao2{
+	margin-top: 30px;
+	background-color: black;
+	color: #0D92ED;
+	border-width:thick;
+	font-size: 35px;
+	padding: 15px;
+	border-color: #0D92ED;
+	border-radius: 10px;
+	cursor: pointer;
+	border-style: solid;
+	font-weight: bold;
+	font-family: 'Grandstander', sans-serif;
+}
+
+#botao2:hover{
+	background-color: #0D92ED;
+	color: black;
+}
+#botao3{
+	margin-top: 30px;
+	background-color: black;
+			color: #0D92ED;
+			border-width:thick;
+			font-size: 35px;
+			padding: 15px;
+			border-color: #0D92ED;
+			border-radius: 10px;
+			cursor: pointer;
+	border-style: solid;
+	font-weight: bold;
+	font-family: 'Grandstander', sans-serif;
+}
+
+
+#botao3:hover{
+	background-color: #0D92ED;
+	color: black;
+}
+
+#parte1{
+	display: flex;
+	position: static;
+	
+}
+#parte1 .kli{
+	width: 540px;
+}
+
+.imgstitch{
+	margin-right: 100px;
+	
+}
+
+.metade1{
+	width: 50%;
+	margin-top: 50px;
+	margin-left: 200px;
+	
+}
+
+
+#parte2{
+	margin-top: 200px;
+	background-color:#000000;
+
+	
+}
+ #parte2 .about{
+ 	width: 900px;
+ }
+
+h2{
+	color: white;
+	text-align: center;
+	padding-left: 250px;
+	padding-right: 250px;
+	text-align: justify;
+  	text-justify: inter-word;
+	font-family: 'Rubik', sans-serif;
+	margin-bottom: 0;
+
+}
+
+
+#img2{
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+
+#img3{
+	text-align: center;
+	margin-top: 0px;
+}
+
+h6{
+	text-align: center;
+	color: white;
+	font-size: 70px;
+	margin-bottom: 60px;
+	margin-top: 70px;
+}
+
+
+#botao4{
+	margin-top: 20px;
+	background-color: black;
+	color: #0D92ED;
+	border-width:thick;
+	font-size: 35px;
+	padding: 15px;
+	border-color: #0D92ED;
+	border-radius: 10px;
+	border-style: solid;
+	margin-right: 15px;
+	padding-left: 70px;
+	padding-right: 70px;
+	font-family: 'Grandstander', sans-serif;
+}
+#botao5{
+	margin-top: 30px;
+	background-color: black;
+	color: #0D92ED;
+	border-width:thick;
+	font-size: 35px;
+	padding: 15px;
+	border-color: #0D92ED;
+	border-radius: 10px;
+	border-style: solid;
+	margin-right: 15px;
+	padding-left: 150px;
+	padding-right: 150px;
+	font-family: 'Grandstander', sans-serif;
+	
+}
+
+#botao6{
+	margin-top: 30px;
+	background-color: black;
+	color: #0D92ED;
+	border-width:thick;
+	font-size: 35px;
+	padding: 15px;
+	border-color: #0D92ED;
+	border-radius: 10px;
+	border-style: solid;
+	margin-right: 15px;
+	font-family: 'Grandstander', sans-serif;
+}
+
+
+
+#botoes2{
+	text-align: center;
+	
+}
+
+
+#botao7{
+margin-top: 20px;
+	background-color: black;
+	color: #0D92ED;
+	border-width:thick;
+	font-size: 35px;
+	padding: 15px;
+	border-color: #0D92ED;
+	border-radius: 10px;
+	border-style: solid;
+	margin-left: 85px;
+	margin-right: 85px;
+	padding-left: 30px;
+	align-content: center;
+	font-family: 'Grandstander', sans-serif;
+}
+
+h5{
+	text-align: center;
+	color: white ;
+	font-size: 70px;
+	margin-top: 150px;
+	margin-bottom: 40px;
+}
+.sti{
+	width: 540px;
+}
+
+
+.subtitulo{
+	text-align: center;
+	color: #0D92ED ;
+	font-size: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.texto{
+
+	color:white;
+	font-size: 20px;
+	margin-top: 50px;
+	margin-left: 350px;
+	margin-right: 350px;
+	text-align: center;
+	margin-top: 10px;
+	font-family: 'Rubik', sans-serif;
+}
+
+#img4{
+	text-align: center;
+	margin-top: 100px;
+}
+.img3, #btmImg1{
+    width: auto;
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+#img5 img{
+	width: autopx;
+	height: 160px;
+}
+#img5 .as{
+	margin-left: 30px;
+}
+#rodape{
+	color: white;
+	font-size: 10px;
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom: 50px;
+	font-family: 'Rubik', sans-serif;
+	
+}
+.fa-x-twitter {
+    background-image: linear-gradient(#118ad6, #931dce);
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 50%;
+    padding: 15px 16px;
+    margin: 3rem 0px;
+}
+.fa-telegram {
+     background-image: linear-gradient(#118ad6, #931dce);
+    color: white;
+    cursor: pointer;
+    font-size: 40px;
+    margin: 3rem 0px;
+    font-weight: 400;
+    border-radius: 50%;
+    padding: 26px 8px;
+}
+#aboutImg{
+	width: 100%;
+}
+.kli2{
+	width: 500px;
+}
+@media screen and (max-width: 1240px){
+	.metade1 {
+    margin-left: 25px;
+}
+
+}
+@media screen and (max-width: 1000px){
+#parte1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.metade1 {
+    margin-left: 124px;
+    margin-bottom: 2rem;
+}
+#parte2 {
+    margin-top: 100px;
+ }
+div#parte3 {
+    margin-top: 5rem;
+}
+ #parte3 h1{
+ 	text-align: center;
+ }
+ #parte2 .about {
+    width: 650px;
+}
+h2 {
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+ }
+ .texto {
+     margin-left:0px; 
+     margin-right: 0px; 
+ }
+}
+@media screen and (max-width: 700px){
+#botao4, #botao5, #botao6, #botao7 {
+    width: 90%;
+    margin: 18px auto;
+    text-align: center;
+}
+#parte1 {
+    justify-content: start;
+    align-items: start;
+    flex-direction: column-reverse;
+}
+.metade1 {
+     margin-left: 30px; 
+    margin-bottom: 2rem;
+}
+#parte1 .kli {
+    width: 400px;
+}
+#parte2 .about {
+    width: 500px;
+}
+}
+@media screen and (max-width: 515px){
+	.metade1 {
+    margin: auto;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.imgstitch {
+	margin-top: 1rem;
+     margin-right: 0px; 
+ }
+#parte1 .kli {
+ margin: auto;
+    display: block;
+    width: 80%;
+    text-align: center;
+}
+#parte2 .about {
+    width: 100%;
+}
+h2 {
+    font-size: 17px;
+}
+#rodape {
+     margin-left: 0px; 
+     margin-right: 0px; 
+ }
+ #botao4 {
+    font-size: 18px;
+ }
+ #botao5 {
+    font-size: 18px;
+ }
+ #botao6 {
+    font-size: 18px;
+ }
+ #botao7 {
+    font-size: 18px;
+ }
+ div#socIcons {
+    display: flex;
+    text-align: center;
+    margin-left: 9rem;
+}
+}
+@media screen and (max-width: 465px){
+	#btmImg1{
+		height: 220px;
+		padding-right: 50px;
+	}
+#parte1 .kli {
+    width: 50%;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    z-index: -99993;
+    transform: translateX(-50%) translateY(-50%);
+}
+div#botoes {
+	margin-top: 20rem;
+
+}
+ .sti {
+    width: 308px;
+}
+h6 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+img#btmImg1 {
+/*    width: 100%;*/
+}
+img#btmImg2 {
+    width: 100%;
+}
+div#socIcons {
+    margin-left: 8.19rem;
+}
+#img3 {
+     margin-top: 0px; 
+}
+}
