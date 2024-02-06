@@ -17,22 +17,21 @@
 <!------ animate ----->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  </head>
 
 
 <title>Stitch on Solana</title>
 	<link type="text/css" rel="stylesheet" href="css/css.css" />
 </head>
 
-	<section id="intro">
+<body>
+<section id="intro">
     <div class="intro-text">
             <span id="intro1">Welcome </span>
             <span id="intro2">to</span>
             <span id="intro3"> <img src="img/$stitch.png"> </span>
-		 </div>
+	</div>
 		
     </section>
-<body>
 	
 
 <div id="parte1"class="animate-on-scroll">
@@ -97,7 +96,7 @@
 		<img src="img/as.png" id="btmImg2"  class="img-fluid wow animate__bounceIn">	
 		</div>
 	  <div class="col-lg-4">
-	  	<img src="img/stitchsentado.png"  class="img-fluid img3">
+	  	<img src="img/stitchsentado.png"  class="img-fluid wow animate__bounceIn img3">
 	  </div>
 	</div>
 	<div class="row" >
@@ -177,17 +176,17 @@ function myFunction() {
 
   if (document.documentElement.scrollTop > (p4iTotalHeight-10)) {
 
-  	// document.getElementById("img4").className = "animate__bounceIn";
+  	document.getElementById("img4").className = "animate__bounceIn";
   	document.getElementById("btmImg1").className = "animate__bounceIn";
   	document.getElementById("btmImg2").className = "animate__bounceIn";
 //   	document.getElementById("socIcons").className = "animate__bounceIn";
 //   	document.getElementById("rodape").className = "animate__bounceIn";
   } else {
-  	// document.getElementById("img4").classList.remove("animate__bounceIn");  	
-  	document.getElementById("btmImg1").classList.remove("animate__bounceIn");  	
-  	document.getElementById("btmImg2").classList.remove("animate__bounceIn");
-//   	document.getElementById("socIcons").classList.remove("animate__bounceIn");  	
-//   	document.getElementById("rodape").classList.remove("animate__bounceIn");  	
+  	document.getElementById("img4").classList.remove("animate__bounceIn");  	
+  	//document.getElementById("btmImg1").classList.remove("animate__bounceIn");  	
+  	//document.getElementById("btmImg2").classList.remove("animate__bounceIn");
+   	document.getElementById("socIcons").classList.remove("animate__bounceIn");  	
+   	document.getElementById("rodape").classList.remove("animate__bounceIn");  	
   }  
 
 }
